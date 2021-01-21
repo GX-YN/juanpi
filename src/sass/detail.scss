@@ -1,0 +1,88 @@
+@import "public";
+.wrapper {
+    position: relative;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 10px 10px 10px;
+    width: 600px;
+    height: 350px;
+    .smallBox {
+        height: 350px;
+        width: 92px;
+        float: left;
+        li {
+            width: 72px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        img {
+            cursor: pointer;
+            display: block;
+            width: 68px;
+            padding: 1px;
+            border: 1px solid #ccc;
+            height: 52px;
+        }
+    }
+    #Box {
+        height: 320px;
+        width: 500px;
+        position: relative;
+        border: 1px solid gray;
+        float: left;
+        cursor: crosshair;
+        img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            /*  height:300px;
+	width:400px;
+	*/
+        }
+        #lay {
+            background: #fff;
+            border: 1px solid gray;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+            display: none;
+            filter: alpha(opacity=50);
+        }
+    }
+    #bigBox {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 20px;
+        left: 640px;
+        overflow: hidden;
+        display: none;
+        border: 1px solid gray;
+    }
+}
+
+.gotop {
+    cursor: pointer;
+    display: block;
+    margin-left: 9px;
+}
+
+.gobottom {
+    cursor: pointer;
+    display: block;
+    margin-left: 9px;
+}
+
+.box_wrapper {
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative
+}
+
+.box_wrapper ul {
+    margin-top: 0px;
+    position: relative;
+    transition: all 0.8s ease-in-out;
+}

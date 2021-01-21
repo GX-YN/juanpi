@@ -1,0 +1,207 @@
+@import 'public';
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+.main {
+    width: 980px;
+    margin: 0 auto;
+    .login-main {
+        width: 980px;
+        margin: 20px auto 0;
+        .login-con {
+            width: 978px;
+            position: relative;
+            background: #fff;
+            overflow: hidden;
+            border: 1px solid #e2e2e2;
+            padding-bottom: 50px;
+            .title {
+                width: 878px;
+                padding: 20px 50px;
+                border-bottom: #e2e2e2 solid 1px;
+                overflow: hidden;
+                .hd {
+                    color: #ff464e;
+                    font-size: 16px;
+                    font-family: "微软雅黑", "宋体";
+                    margin-right: 10px;
+                    background: url(../img/hd-bg.gif) no-repeat center right;
+                    padding-right: 20px;
+                    float: left;
+                }
+                .tips {
+                    color: #666;
+                    float: left;
+                    margin-top: 3px;
+                }
+                .other {
+                    float: right;
+                    font-size: 14px;
+                    color: #999;
+                    a {
+                        color: #0289CD;
+                    }
+                }
+            }
+            .login-center {
+                padding: 30px 80px 0 80px;
+                width: 818px;
+                height: auto;
+                overflow: hidden;
+                position: relative;
+                .center-left {
+                    width: 450px;
+                    float: left;
+                    display: inline;
+                    .node {
+                        padding-bottom: 25px;
+                        overflow: visible;
+                        height: auto;
+                        position: relative;
+                        height: 45px;
+                        clear: both;
+                    }
+                }
+                .normal {
+                    width: 80px;
+                    text-align: right;
+                    float: left;
+                    display: inline;
+                    height: 20px;
+                    margin-top: 8px;
+                    font-size: 14px;
+                }
+                .box-border {
+                    border: 1px solid #666;
+                    width: 270px;
+                    float: left;
+                    // height: 38px;
+                    .user-img {
+                        background: url(../img/name.jpg) no-repeat #f1f1f1;
+                        width: 39px;
+                        height: 38px;
+                        float: left;
+                    }
+                    input {
+                        width: 226px;
+                        padding: 12px 0 12px 5px;
+                        line-height: 14px;
+                        border: 0;
+                        overflow: hidden;
+                        font-size: 100%;
+                    }
+                    .code-img {
+                        background: url(../img/code.jpg) no-repeat #f1f1f1;
+                        width: 39px;
+                        height: 38px;
+                        float: left;
+                    }
+                }
+                .error-box {
+                    margin-left: 10px;
+                    width: 16px;
+                    height: 16px;
+                    margin-top: 10px;
+                    color: #666;
+                    float: left;
+                    overflow: hidden;
+                }
+                .center-right {
+                    margin: 20px 0 0 0;
+                    overflow: hidden;
+                    width: 358px;
+                    text-align: right;
+                }
+                .chex-d {
+                    padding-bottom: 8px;
+                    height: 20px;
+                    .chex {
+                        width: 280px;
+                        float: left;
+                        color: #5e5e5e;
+                        input {
+                            vertical-align: -2px;
+                            margin-right: 5px;
+                        }
+                        a {
+                            float: right;
+                            color: #999;
+                        }
+                    }
+                }
+                .btn {
+                    float: left;
+                    width: 260px;
+                    input {
+                        width: 260px;
+                        height: 40px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        border-radius: 2px;
+                        border: 0;
+                        color: #fff;
+                        background: url(../img/new-login.gif);
+                    }
+                }
+                .third {
+                    float: left;
+                    width: 142px;
+                    .login-title {
+                        height: 16px;
+                        line-height: 16px;
+                        position: relative;
+                        span {
+                            color: #333;
+                        }
+                    }
+                    .weixin,
+                    .taobao,
+                    .sina {
+                        float: left;
+                        width: 22px;
+                        height: 22px;
+                        margin-right: 7px;
+                        display: inline;
+                        margin-top: 5px;
+                    }
+                    .weixin {
+                        background: url(../img/new-login.gif) -236px -194px;
+                        display: block;
+                    }
+                    .sina {
+                        background: url(../img/new-login.gif) -27px -169px;
+                    }
+                    .taobao {
+                        background: url(../img/new-login.gif) -27px -140px;
+                    }
+                }
+                a {
+                    // margin: 14px 0 0 0;
+                    font-size: 14px;
+                    color: #666;
+                    float: left;
+                    display: inline;
+                    .ico {
+                        width: 12px;
+                        height: 22px;
+                        margin: 0 5px 0 0;
+                        background: url(../img/icons-phone.gif) no-repeat right -251px;
+                        float: left;
+                    }
+                }
+            }
+        }
+        .foot-tips {
+            text-align: center;
+            margin: 40px auto 40px;
+            width: 900px;
+            color: #666;
+        }
+        .ft {
+            color: #666;
+        }
+    }
+}
